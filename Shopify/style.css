@@ -1,0 +1,45 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5em;
+}
+
+h1 h2 {
+    font-weight: 700;
+}
+
+input {
+    float: right;
+    padding: 15px;
+    width: 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(48, 176, 48);
+    border-radius: 5px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:active {
+    background-color: rgba(48, 176, 48, 0.843);
+    cursor: grabbing;
+}
+
+textarea {
+    background-color: rgba(220, 220, 220, 0.275);
+}
+
+h2 {
+    margin-top: 2em;
+}
